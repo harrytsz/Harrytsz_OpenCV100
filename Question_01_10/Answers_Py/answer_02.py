@@ -16,13 +16,18 @@ def BGR2GRAY(img):
 
 # Read Image
 img = cv.imread("./imori.jpg")
+
 # Show & Save origin image
 cv.imshow("Origin", img)
 cv.imwrite("Origin_02.jpg", img)
+
 # Gray scale
 img = BGR2GRAY(img)
+
 # Save result
 cv.imwrite("Output_02.jpg", img)
 cv.imshow("Result", img)
+
+# Esc exit
 cv.waitKey(0)
 cv.destroyAllWindows()
