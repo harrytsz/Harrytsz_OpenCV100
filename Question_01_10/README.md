@@ -1,5 +1,5 @@
 # Questions 01 - 10
-## Q1：通道交换
+## Q1：Channel_swap(通道交换)
 
 读取图像，然后将$\text{RGB}$通道替换成$\text{BGR}$通道。
 
@@ -20,7 +20,6 @@ red = img[:, :, 2].copy()
 |  ![Origin](./Data/Origin_01.jpg)  | ![Output](./Data/Output_01.jpg)  |
 
 > Answers：
->
 > * [Python](Answers_Py/answer_01.py)
 > * [C++](Answers_Cpp/answer_01.cpp)
 
