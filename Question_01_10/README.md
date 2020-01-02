@@ -19,7 +19,7 @@ red = img[:, :, 2].copy()
 | :--------------: | :------------------------------: |
 |  ![Origin](./Data/Origin_01.jpg)  | ![Output](./Data/Output_01.jpg)  |
 
-> 答案：
+> Answers：
 >
 > * [Python](Answers_Py/answer_01.py)
 > * [C++](Answers_Cpp/answer_01.cpp)
@@ -37,7 +37,7 @@ $$
 | :--------------: | :------------------------------: |
 |  ![](imori.jpg)  | ![](answers_image/answer_2.jpg)  |
 
-> 答案：
+> Answers：
 >
 > * Python >> [answers_py/answer_2.py](answers_py/answer_2.py)
 >
@@ -61,8 +61,7 @@ $$
 | :--------------: | :------------------------------: |
 |  ![](imori.jpg)  | ![](answers_image/answer_3.jpg)  |
 
-> 答案 
->
+> Answers：
 > * Python >> [answers_py/answer_3.py](answers_py/answer_3.py)
 > * C++ >> [answers_cpp/answer_3.cpp](answers_cpp/answer_3.cpp)
 
@@ -104,7 +103,7 @@ $$
 | :--------------: | :----------------------------------------------------: |
 |  ![](imori.jpg)  |            ![](answers_image/answer_4.jpg)             |
 
-> 答案
+> Answers：
 > Python >> [answers/answer_4.py](answers/answer_4.py)
 > C++ >> [answers_cpp/answer_4.py](answers_cpp/answer_4.py)
 
@@ -168,8 +167,7 @@ $$
 | :--------------: | :------------------------------: |
 |  ![](imori.jpg)  | ![](answers_image/answer_5.jpg)  |
 
-> 答案 
->
+> Answers：
 > * Python >> [answers_py/answer_5.py](answers_py/answer_5.py)
 > * C++ >> [answers_cpp/answer_5.cpp](answers_cpp/answer_5.cpp)
 
@@ -192,8 +190,7 @@ $$
 | :--------------: | :------------------------------: |
 |  ![](imori.jpg)  | ![](answers_image/answer_6.jpg)  |
 
-> 答案 
->
+> Answers：
 > * Python >> [answers_py/answer_6.py](answers_py/answer_6.py)
 > * C++ >> [answers_cpp/answer_6.cpp](answers_cpp/answer_6.cpp)
 
@@ -213,8 +210,7 @@ $$
 | :--------------: | :------------------------------: |
 |  ![](imori.jpg)  | ![](answers_image/answer_7.jpg)  |
 
-> 答案 
->
+> Answers：
 > * Python >> [answers_py/answer_7.py](answers_py/answer_7.py)
 > * C++ >> [answers_cpp/answer_7.cpp](answers_cpp/answer_7.cpp)
 
@@ -226,7 +222,7 @@ $$
 | :--------------: | :------------------------------: |
 |  ![](imori.jpg)  | ![](answers_image/answer_8.jpg)  |
 
-> 答案
+> Answers：
 > - Python >> [answers_py/answer_8.py](answers_py/answer_8.py)
 > - C++ >> [answers_cpp/answer_8.cpp](answers_cpp/answer_8.cpp)
 
@@ -260,8 +256,7 @@ $$
 | :--------------------: | :------------------------------: |
 |  ![](imori_noise.jpg)  | ![](answers_image/answer_9.jpg)  |
 
-> 答案 
->
+> Answers： 
 > * Python >> [answers_py/answer_9.py](answers_py/answer_9.py)
 > * C++ >> [answers_cpp/answer_9.cpp](answers_cpp/answer_9.cpp)
 
@@ -275,7 +270,6 @@ $$
 | :--------------------: | :-------------------------------: |
 |  ![](imori_noise.jpg)  | ![](answers_image/answer_10.jpg)  |
 
-> 答案 
->
+> Answers：
 > * Python >> [answers_py/answer_10.py](answers_py/answer_10.py)
 > * C++ >> [answers_cpp/answer_10.cpp](answers_cpp/answer_10.cpp)
