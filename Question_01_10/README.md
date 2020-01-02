@@ -41,28 +41,26 @@ $$Y = 0.2126\  R + 0.7152\  G + 0.0722\  B$$
 > * [C++](Answers_Cpp/answer_02.cpp)
 
 
-## 问题三：二值化（Thresholding）
+## Q3：Thresholding(二值化)
 
 把图像进行二值化吧。
 
 二值化是将图像使用黑和白两种颜色表示的方法。
 
 我们将灰度的阈值设置为$128$来进行二值化，即：
-$$
-y=
+$$y=
 \begin{cases}
 0& (\text{if}\quad y < 128) \\
 255& (\text{else})
-\end{cases}
-$$
+\end{cases}$$
 
-| 输入（imori.jpg) | 输出(answers_image/answer_3.jpg) |
+| Input | Output |
 | :--------------: | :------------------------------: |
-|  ![](imori.jpg)  | ![](answers_image/answer_3.jpg)  |
+|  ![Origin](./Data/Origin_03.jpg)  | ![Output](./Data/Output_03.jpg)  |
 
 > Answers：
-> * Python >> [answers_py/answer_3.py](answers_py/answer_3.py)
-> * C++ >> [answers_cpp/answer_3.cpp](answers_cpp/answer_3.cpp)
+> * [Python](Answers_Py/answer_03.py)
+> * [C++](Answers_Cpp/answer_03.cpp)
 
 ## 问题四：大津二值化算法（Otsu's Method）
 
