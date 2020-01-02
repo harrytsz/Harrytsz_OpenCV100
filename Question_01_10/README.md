@@ -23,7 +23,8 @@ red = img[:, :, 2].copy()
 > * [Python](Answers_Py/answer_01.py)
 > * [C++](Answers_Cpp/answer_01.cpp)
 
-## Q1：Grayscale(灰度化)
+
+## Q2：Grayscale(灰度化)
 
 将图像灰度化吧！
 
@@ -33,13 +34,13 @@ $$Y = 0.2126\  R + 0.7152\  G + 0.0722\  B$$
 
 | Input | Output |
 | :--------------: | :------------------------------: |
-|  ![](imori.jpg)  | ![](answers_image/answer_2.jpg)  |
+|  ![Origin](./Data/Origin_02.jpg)  | ![Output](./Data/Output_02.jpg)  |
 
 > Answers：
->
-> * Python >> [answers_py/answer_2.py](answers_py/answer_2.py)
->
-> * C++ >> [answers_cpp/answer_2.cpp](answers_cpp/answer_2.cpp)
+> * [Python](Answers_Py/answer_02.py)
+> * [C++](Answers_Cpp/answer_02.cpp)
+
+
 ## 问题三：二值化（Thresholding）
 
 把图像进行二值化吧。
