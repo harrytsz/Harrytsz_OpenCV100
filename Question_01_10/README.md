@@ -21,8 +21,8 @@ red = img[:, :, 2].copy()
 
 > 答案：
 >
-> * Python >> [answers_py/answer_1.py](answers_py/answer_1.py)
-> * C++ >> [answers_cpp/answer_1.cpp](answers_cpp/answer_1.cpp)
+> * Python >> [answers_py/answer_1.py](Answers_Py/answer_01.py)
+> * C++ >> [answers_cpp/answer_1.cpp](Answers_Cpp/answer_01.cpp)
 
 ## 问题二：灰度化（Grayscale）
 
