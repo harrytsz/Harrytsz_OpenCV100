@@ -15,7 +15,7 @@ img = cv2.imread("imori.jpg")
 red = img[:, :, 2].copy()
 ```
 
-| 输入 | 输出 |
+| Input | Output |
 | :--------------: | :------------------------------: |
 |  ![Origin](./Data/Origin_01.jpg)  | ![Output](./Data/Output_01.jpg)  |
 
