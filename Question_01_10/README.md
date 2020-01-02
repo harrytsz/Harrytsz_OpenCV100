@@ -17,7 +17,7 @@ red = img[:, :, 2].copy()
 
 | 输入（imori.jpg) | 输出(answers_image/answer_1.jpg) |
 | :--------------: | :------------------------------: |
-|  ![](imori.jpg)  | ![](answers_image/answer_1.jpg)  |
+|  ![Origin](./Data/Origin_01.jpg)  | ![Output](./Data/Output_01.jpg)  |
 
 > 答案：
 >
