@@ -48,10 +48,9 @@ $$Y = 0.2126\  R + 0.7152\  G + 0.0722\  B$$
 二值化是将图像使用黑和白两种颜色表示的方法。
 
 我们将灰度的阈值设置为$128$来进行二值化，即：
-$$y=
-\begin{cases}
-0& (\text{if}\quad y < 128) \\
-255& (\text{else})
+$$y=\begin{cases}
+0 & \text{ if } y<128; \\ 
+255 & \text{ else }. 
 \end{cases}$$
 
 | Input | Output |
