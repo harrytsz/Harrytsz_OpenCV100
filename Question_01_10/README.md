@@ -23,16 +23,15 @@ red = img[:, :, 2].copy()
 > * [Python](Answers_Py/answer_01.py)
 > * [C++](Answers_Cpp/answer_01.cpp)
 
-## 问题二：灰度化（Grayscale）
+## Q1：Grayscale(灰度化)
 
 将图像灰度化吧！
 
 灰度是一种图像亮度的表示方法，通过下式计算：
-$$
-Y = 0.2126\  R + 0.7152\  G + 0.0722\  B
-$$
 
-| 输入（imori.jpg) | 输出(answers_image/answer_2.jpg) |
+$$Y = 0.2126\  R + 0.7152\  G + 0.0722\  B$$
+
+| Input | Output |
 | :--------------: | :------------------------------: |
 |  ![](imori.jpg)  | ![](answers_image/answer_2.jpg)  |
 
