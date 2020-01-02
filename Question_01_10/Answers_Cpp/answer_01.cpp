@@ -4,7 +4,7 @@
 
 using namespace cv;
 
-Mat channel_swap(Mat img) {
+Mat RGB2BGR(Mat img) {
 	// get height and width
 	int height = img.rows;
 	int width = img.cols;
@@ -12,8 +12,11 @@ Mat channel_swap(Mat img) {
 	Mat out = Mat::zeros(height, width, CV_8UC3);
 	for (int y = 0; y < height; y++) {
 		for (int x = 0; x < width; x++) {
+			// R -> B
 			out.at<Vec3b>(y, x)[0] = img.at<Vec3b>(y, x)[2];
+			// G -> G
 			out.at<Vec3b>(y, x)[1] = img.at<Vec3b>(y, x)[1];
+			// B -> R
 			out.at<Vec3b>(y, x)[2] = img.at<Vec3b>(y, x)[0];
 		}
 	}
@@ -29,7 +32,7 @@ int main()
 	namedWindow("图片");
 	// 在窗口中显示图片   
 	imshow("Origin", img);
-	Mat out = channel_swap(img);
+	Mat out = RGB2BGR(img);
 	imshow("Output", out);
 	// Esc 键退出
 	waitKey(0);
