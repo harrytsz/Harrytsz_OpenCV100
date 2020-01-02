@@ -8,12 +8,15 @@
 
 using namespace cv;
 
+//  Gray scale
 Mat BGR2GRAY(Mat img) {
 	// get height and width
 	int height = img.rows;
 	int width = img.cols;
+
 	// prepare output
 	Mat out = Mat::zeros(height, width, CV_8UC1);
+	
 	for (int y = 0; y < height; y++) {
 		for (int x = 0; x < width; x++) {
 			// BGR -> GRAY
@@ -52,11 +55,11 @@ int main()
 	Mat img = imread("imori.png");    
 	namedWindow("Images");
 
-	// Show Origin image
+	// Show origin image
 	imshow("Origin", img);
 	imwrite("Origin_03_cpp.jpg", img);
 
-	// Run operation
+	// Gray scale
 	Mat grayImg = BGR2GRAY(img);
 
 	// Binaryzation
