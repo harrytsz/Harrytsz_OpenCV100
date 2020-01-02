@@ -1,5 +1,5 @@
 ##########################################
-#    Question 03 : Thresholding(二值化)
+#    Question 04 : Otsu Binaryzation Method(大津二值化算法)
 ##########################################
 import cv2 as cv
 import numpy as np
@@ -37,7 +37,7 @@ def OtsuBinaryzation(img, th=128):
         if sigma > max_sigma:
             max_sigma = sigma
             max_t = _t
-    return max_t
+    return max_t # 输出最优二值化阈值
 
 
 # Read Image
