@@ -61,7 +61,8 @@ $$y=\begin{cases}
 > * [Python](Answers_Py/answer_03.py)
 > * [C++](Answers_Cpp/answer_03.cpp)
 
-## 问题四：大津二值化算法（Otsu's Method）
+
+## Q4：Otsu's Method(大津二值化算法)
 
 使用大津算法来二值化图像吧。
 
@@ -95,13 +96,13 @@ $$
 $$
 换言之，如果使${S_b}^2={w_0}\ {w_1}\ (M_0 - M_1)^2$最大，就可以得到最好的二值化阈值$t$。
 
-| 输入（imori.jpg) | 输出 ($\text{th} = 127$​) (answers_image/answer_4.jpg) |
-| :--------------: | :----------------------------------------------------: |
-|  ![](imori.jpg)  |            ![](answers_image/answer_4.jpg)             |
+| Input | Output |
+| :--------------: | :------------------------------: |
+|  ![Origin](./Data/Origin_04.jpg)  | ![Output](./Data/Output_04.jpg)  |
 
 > Answers：
-> Python >> [answers/answer_4.py](answers/answer_4.py)
-> C++ >> [answers_cpp/answer_4.py](answers_cpp/answer_4.py)
+> * [Python](Answers_Py/answer_04.py)
+> * [C++](Answers_Cpp/answer_04.cpp)
 
 ## 问题五：$\text{HSV}$变换
 
