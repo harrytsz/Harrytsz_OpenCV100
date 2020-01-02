@@ -12,6 +12,7 @@ Mat RGB2BGR(Mat img) {
 	// get height and width
 	int height = img.rows;
 	int width = img.cols;
+
 	// prepare output
 	Mat out = Mat::zeros(height, width, CV_8UC3);
 	for (int y = 0; y < height; y++) {
@@ -32,12 +33,15 @@ int main()
 {
 	// 读入一张图片（poyanghu缩小图）    
 	Mat img = imread("imori.png");
+
 	// 创建一个名为 "图片"窗口    
 	namedWindow("图片");
+
 	// 在窗口中显示图片   
 	imshow("Origin", img);
 	Mat out = RGB2BGR(img);
 	imshow("Output", out);
+	
 	// Esc 键退出
 	waitKey(0);
 	destroyAllWindows();
