@@ -12,6 +12,7 @@ Mat BGR2GRAY(Mat img) {
 	// get height and width
 	int height = img.rows;
 	int width = img.cols;
+
 	// prepare output
 	Mat out = Mat::zeros(height, width, CV_8UC1);
 	for (int y = 0; y < height; y++) {
@@ -31,14 +32,18 @@ int main()
 	// Read image    
 	Mat img = imread("imori.png");    
 	namedWindow("Images");
+
 	// Show Origin image
 	imshow("Origin", img);
 	imwrite("Origin_02_cpp.jpg", img);
+
 	// Run operation
 	Mat out = BGR2GRAY(img);
+
 	// Show output image
 	imshow("Output", out);
 	imwrite("Output_02_cpp.jpg", out);
+	
 	// Esc exit
 	waitKey(0);
 	destroyAllWindows();
