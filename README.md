@@ -26,7 +26,7 @@ OpenCV 100 questions answer
 
 | 序号 |                            问题                             |                  Python                  |                      C++                      | 翻译一校 |
 | :--: | :---------------------------------------------------------: | :--------------------------------------: | :-------------------------------------------: | :------: |
-|  1   |            [通道替换](Question_01_10/README.md)             | [✓](Question_01_10/Answers_Py/answer_1.py)  | [✓](Question_01_10/Answers_Cpp/answer_01.cpp)  |    ✓     |
+|  1   |            [通道替换](Question_01_10/README.md)             | [✓](Question_01_10/Answers_Py/answer_01.py)  | [✓](Question_01_10/Answers_Cpp/answer_01.cpp)  |    ✓     |
 |  2   |       [灰度化（Grayscale）](Question_01_10/README.md)       | [✓](Question_01_10/Answers_Py/answer_2.py)  | [✓](Question_01_10/Answers_Cpp/answer_2.cpp)  |    ✓     |
 |  3   |     [二值化（Thresholding）](Question_01_10/README.md)      | [✓](Question_01_10/Answers_Py/answer_3.py)  | [✓](Question_01_10/Answers_Cpp/answer_3.cpp)  |    ✓     |
 |  4   | [大津二值化算法（Otsu's Method）](Question_01_10/README.md) | [✓](Question_01_10/Answers_Py/answer_4.py)  | [✓](Question_01_10/Answers_Cpp/answer_4.cpp)  |    ✓     |
