@@ -86,14 +86,12 @@ $$y=\begin{cases}
 
 [^1]: 这里原repo配图里的公式好像打错了。
 
-$$
-X = \frac{{S_b}^2}{{S_w}^2} = \frac{{S_b}^2}{{S_t}^2 - {S_b}^2}
-$$
+$$X = \frac{{S_b}^2}{{S_w}^2} = \frac{{S_b}^2}{{S_t}^2 - {S_b}^2}$$
 
 也就是说： 
-$$
-\arg\max\limits_{t}\ X=\arg\max\limits_{t}\ {S_b}^2
-$$
+
+$$argmax_{t} X = argmax_{t} * {S_b}^2$$
+
 换言之，如果使 ${S_b}^2 = {w_0} * {w_1} * (M_0 - M_1)^2$ 最大，就可以得到最好的二值化阈值 $t$。
 
 | Input | Output |
