@@ -16,13 +16,18 @@ def RGB2BGR(img):
 
 # Read Image
 img = cv.imread("./imori.jpg")
+
 # Show & Save origin image
 cv.imshow("Origin", img)
 cv.imwrite("Origin.jpg", img)
+
 # RGB -> BGR
 img = RGB2BGR(img)
+
 # Save result
 cv.imwrite("Out.jpg", img)
 cv.imshow("Result", img)
+
+# Esc exit
 cv.waitKey(0)
 cv.destroyAllWindows()
